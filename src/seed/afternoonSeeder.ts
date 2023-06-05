@@ -24,8 +24,8 @@ const APEData = async () => {
         scanned: false,
         status: 'Absent',
         date: date.toLocaleDateString(),
-        signedinAt: '',
-        document: '',
+        signedinAt: ' ',
+        document: ' ',
       });
     }
   }
@@ -44,9 +44,9 @@ const APAEData = async () => {
         studentId: APAE[i].login,
         scanned: false,
         status: 'Absent',
-        signedinAt: '',
+        signedinAt: ' ',
         date: date.toLocaleDateString(),
-        document: '',
+        document: ' ',
       });
     }
   }
